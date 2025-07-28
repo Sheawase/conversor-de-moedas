@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -25,11 +25,10 @@
 
         <label for="">
             converter <b>to</b>
-            <select>
-                <option class="money" value="">US$ Dólar Americano</option>
-                <option class="money" value="">€ Euro </option>
-                <option class="money" value="">£ Libra</option>
-                <option class="money" value="">Bitcoin</option>
+            <select class="currency-select">
+                <option class="money" value="dolar">US$ Dólar Americano</option>
+                <option class="money" value="euro">€ Euro </option>
+                <option class="money" value="libra">£ Libra</option>
             </select>
         </label>
 
@@ -51,7 +50,7 @@
 
             <div class="currency-box">
                 <img class="EUA" src="./assets/estados-unidos (1) 1.png" alt="Bandeira dos estados-unidos" class="EUA">
-                <p class="currency">Dolar</p>
+                <p class="currency" id="currency-name">Dolar</p>
                 <p class="currency-value">US$ 0,00</p>
             </div>
             
