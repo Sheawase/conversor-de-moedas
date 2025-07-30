@@ -15,15 +15,15 @@
     <img src="./assets/logo.gif" alt="Conversor de Moedas" class="img">
 
     <main>
-        <label for="">
+        <label for="moeda-origem">
             converter <b>of</b>
-            <select>
-                <option value="">R$ Real Brasileiro</option>
+            <select class="first-select">
+                <option class="money" value="Real">R$ Real Brasileiro</option>             
             </select>
         </label>
 
 
-        <label for="">
+        <label for="moeda-destino">
             converter <b>to</b>
             <select class="currency-select">
                 <option class="money" value="dolar">US$ Dólar Americano</option>
@@ -32,7 +32,7 @@
             </select>
         </label>
 
-        <label for="" class="valor">
+        <label for="valor">
             valor
             <input class="input-currency" type="number" placeholder="R$ 0,00" class="input">
         </label>
@@ -42,7 +42,7 @@
         <section>
             <div class="currency-box">
                 <img class="Brasil" src="./assets/brasil 2.png" alt="Bandeira do Brasil">
-                <p class="currency">Real</p>
+                <p class="currency" id="first-name">Real</p>
                 <p class="currency-value-to-convert">R$ 0,00</p>
             </div>
 
@@ -51,7 +51,7 @@
             <div class="currency-box">
                 <img class="EUA" src="./assets/estados-unidos (1) 1.png" alt="Bandeira dos estados-unidos" class="EUA">
                 <p class="currency" id="currency-name">Dolar</p>
-                <p class="currency-value">US$ 0,00</p>
+                <p id="resultado" class="currency-value">US$ 0,00</p>
             </div>
             
         </section>

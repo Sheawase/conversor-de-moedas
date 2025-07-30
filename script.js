@@ -8,7 +8,6 @@ function convertValues() {
     const currencyValueToConvert = document.querySelector(".currency-value-to-convert"); //valor em real
     const currencyValueConverted = document.querySelector(".currency-value"); //valor convertido em outras moedas
 
-    console.log(currencySelect.value)
     const dolarToday = 5.2 // Example conversion rate
     const euroToday = 6.2 // Example conversion rateinputCurrencyValue / dolarToday
     const libraToday = 7.2 // Example conversion rate
